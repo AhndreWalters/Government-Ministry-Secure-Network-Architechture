@@ -1,7 +1,0 @@
-routers:
-  hosts:
-    router: {ansible_host: 192.168.99.3}
-switches:
-  hosts:
-    core1: {ansible_host: 192.168.99.1}
-    core2: {ansible_host: 192.168.99.2}

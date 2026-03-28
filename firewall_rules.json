@@ -1,6 +1,0 @@
-{"rules": [
-  {"proto": "UDP", "port": 53, "src": "VLANs 10-50", "dst": "192.168.99.13", "action": "allow"},
-  {"proto": "UDP", "port": "67-68", "src": "VLANs 10-50", "dst": "192.168.99.10", "action": "allow"},
-  {"proto": "TCP", "port": 25, "src": "internal", "dst": "192.168.99.11", "action": "allow"},
-  {"proto": "ANY", "port": "any", "src": "192.168.60.0/24", "dst": "internal", "action": "deny"}
-]}
